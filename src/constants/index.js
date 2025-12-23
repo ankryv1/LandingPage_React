@@ -1,7 +1,4 @@
 
-import kitchenImage from "../assets/kitchen.webp";
-import bathroomImage from "../assets/bathroom.webp";
-import livingRoomImage from "../assets/living-room.webp";
 
 import portfolio1 from "../assets/portfolio1.webp";
 import portfolio2 from "../assets/portfolio2.webp";
@@ -18,29 +15,6 @@ import user5 from "../assets/user5.webp";
 import user6 from "../assets/user6.webp";
 
 
-export const SERVICES_CONTENT = [
-  {
-    title: "Kitchen Renovation",
-    description:
-      "Transform your kitchen into a modern, functional space with our comprehensive renovation services. From custom cabinetry to state-of-the-art appliances, we handle all aspects of kitchen remodeling.",
-    image: kitchenImage,
-    alt: "Kitchen Renovation",
-  },
-  {
-    title: "Bathroom Renovation",
-    description:
-      "Create a spa-like retreat in your home with our bathroom renovation services. We offer luxurious fixtures, custom tiling, and innovative designs to elevate your bathroom experience.",
-    image: bathroomImage,
-    alt: "Bathroom Renovation",
-  },
-  {
-    title: "Living Room Renovation",
-    description:
-      "Update your living room with our expert renovation services. We offer custom designs, new flooring options, and stylish lighting solutions to create a warm and inviting space for your family and guests.",
-    image: livingRoomImage,
-    alt: "Living Room Renovation",
-  },
-];
 
 export const PORTFOLIO_PROJECTS = [
   {
@@ -94,48 +68,48 @@ export const PORTFOLIO_PROJECTS = [
 ];
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with VastuSpaze. We take pride in our work and are committed to delivering top-notch home renovation services.",
+  text: "Hear what our clients have to say about their experiences with HomeCraft. We take pride in our work and are committed to delivering top-notch home renovation services.",
   reviews: [
     {
       name: "Alice Johnson",
       title: "Homeowner",
       review:
-        "VastuSpaze transformed our outdated kitchen into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
+        "HomeCraft transformed our outdated kitchen into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
       image: user1,
     },
     {
       name: "Bob Smith",
       title: "Homeowner",
       review:
-        "Our bathroom renovation was seamless, thanks to VastuSpaze. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
+        "Our bathroom renovation was seamless, thanks to HomeOwner. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
       image: user2,
     },
     {
       name: "Carla Mendes",
       title: "Homeowner",
       review:
-        "VastuSpaze helped us create the perfect outdoor living space. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
+        "HomeCraft helped us create the perfect outdoor living space. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
       image: user3,
     },
     {
       name: "David Lee",
       title: "Homeowner",
       review:
-        "The living room update exceeded our expectations. VastuSpaze's team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
+        "The living room update exceeded our expectations. HomeCraft's team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
       image: user4,
     },
     {
       name: "Ella Fernandez",
       title: "Homeowner",
       review:
-        "From start to finish, VastuSpaze was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
+        "From start to finish, HomeCraft was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
       image: user5,
     },
     {
       name: "Frank Wilson",
       title: "Homeowner",
       review:
-        "VastuSpaze did an amazing job on our basement conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
+        "HomeCraft did an amazing job on our basement conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
       image: user6,
     },
   ],

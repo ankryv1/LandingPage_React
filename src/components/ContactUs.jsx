@@ -4,7 +4,7 @@ import { RiMailLine, RiPhoneLine, RiMapPinLine } from 'react-icons/ri'
 
 const ContactUs = () => {
   return (
-    <section className='max-w-7xl mx-auto' id='Contacts'>
+    <section className='max-w-7xl mx-auto my-3' id='Contacts'>
         <div>
             <h2 className='text-xl lg:text-3xl tracking-tight mb-12 text-center'>CONTACT US</h2>
             <p className='max-w-2xl text-lg mb-12 text-center mx-auto'>{CONTACT_INFO.text}</p>
