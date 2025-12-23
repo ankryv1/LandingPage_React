@@ -1,16 +1,106 @@
-# React + Vite
+Landing Page – React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built using React, Vite, and Tailwind CSS.
+This project was developed as part of an assignment and deployed on a free hosting platform.
 
-Currently, two official plugins are available:
+🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 Deployed URL:
+https://leafy-profiterole-29bef5.netlify.app/
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React – UI development
 
-## Expanding the ESLint configuration
+Vite – Fast build tool
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS – Styling
+
+JavaScript (ES6+)
+
+Netlify – Deployment
+
+✨ Features
+
+Responsive design (mobile & desktop friendly)
+
+Clean and modern UI
+
+Optimized assets and fast load time
+
+Component-based React structure
+
+Production-ready build setup
+
+📂 Project Structure
+home-craft/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+
+🚀 Getting Started (Run Locally)
+1️⃣ Clone the repository or extract ZIP
+git clone <repository-url>
+cd home-craft
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start development server
+npm run dev
+
+
+The app will run on:
+👉 http://localhost:5173
+
+📦 Build for Production
+
+To create an optimized production build:
+
+npm run build
+
+
+The build output will be generated in the dist/ folder.
+
+🌐 Deployment
+
+The project is deployed using Netlify.
+
+Deployment steps:
+
+Run npm run build
+
+Upload the dist/ folder or connect GitHub repository
+
+Set build command: npm run build
+
+Set publish directory: dist
+
+📌 Notes
+
+node_modules and dist are not included in the source ZIP
+
+All dependencies are listed in package.json
+
+Compatible with modern browsers
+
+👤 Author
+
+Ankit Kumar Yadav
+
+GitHub: https://github.com/ankryv1
+
+Role: Frontend / Full Stack Developer (Internship Level)
+
+📬 Feedback
+
+If you have suggestions or would like changes to the design or functionality, feel free to reach out.
