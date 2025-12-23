@@ -6,7 +6,7 @@ const Projects = () => {
 <section className="max-w-7xl mx-auto border-b-2" id="Projects">
   <div className="mb-20">
     <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mt-20 mb-12 underline underline-offset-4">
-      Portfolio
+      Projects
     </h2>
 
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

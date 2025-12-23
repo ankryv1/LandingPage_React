@@ -1,4 +1,5 @@
 import React from "react";
+import { CONTACT_INFO } from "../constants";
 
 const About = () => {
   return (
